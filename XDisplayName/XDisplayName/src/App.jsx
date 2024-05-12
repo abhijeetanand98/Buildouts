@@ -21,7 +21,7 @@ function App() {
       setError('Please fill in both first name and last name.');
       setFullName(''); // Clear full name if there's an error
     } else {
-      setFullName(${first} ${last});
+      setFullName(`${first} ${last}`);
       setError('');
     }
   };
