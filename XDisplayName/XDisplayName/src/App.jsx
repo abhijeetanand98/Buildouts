@@ -28,20 +28,20 @@ function App() {
     
     <form onSubmit={handleSubmit}>
       <div>
-        <label htmlFor="firstName">First Name:</label>
+        <label htmlFor="first">First Name:</label>
         <input
           type="text"
-          id="firstName"
+          id="first"
           value={firstName}
           onChange={handleFirstNameChange}
           required
         />
       </div>
       <div>
-        <label htmlFor="lastName">Last Name:</label>
+        <label htmlFor="last">Last Name:</label>
         <input
           type="text"
-          id="lastName"
+          id="last"
           value={lastName}
           onChange={handleLastNameChange}
           required
